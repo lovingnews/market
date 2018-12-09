@@ -1,0 +1,42 @@
+<HTML>
+<HEAD>
+<TITLE>Processinfg Order</TITLE>
+</HEAD>
+<BODY>
+  <CENTER>
+  <P><H3>신규고객 등록</H3>
+    <FORM NAME = frm신규고객등록 ACTION="customer_process.html">
+      <TABLE WIDTH = 60%>
+        <TR>
+          <TD WIDTH=40% ALIGN = RIGHT>이름:&nbsp;</TD>
+          <TD WIDTH=60% ALIGN = LEFT><INPUT TYPE=TEXT SIZE = 15 NAME = 이름 ></TD>
+        </TR>
+        <TR>
+          <TD WIDTH=40% ALIGN = RIGHT>주소:&nbsp;</TD>
+          <TD WIDTH=60% ALIGN = LEFT><INPUT TYPE=TEXT SIZE = 25 NAME =  주소 ></TD>
+        </TR>
+        <TR>
+          <TD ALIGN = RIGHT>전화번호:&nbsp;</TD>
+          <TD ALIGN = LEFT><INPUT TYPE=TEXT SIZE = 10 NAME = 전화번호 ></TD>
+        </TR>
+        <TR>
+          <TD ALIGN = RIGHT>로그인 ID:&nbsp;</TD>
+          <TD ALIGN = LEFT><INPUT TYPE=TEXT SIZE = 15 NAME = 로그인ID ></TD>
+        </TR>
+        <TR>
+          <TD ALIGN = RIGHT>비밀번호:&nbsp;</TD>
+          <TD ALIGN = LEFT><INPUT TYPE=PASSWORD SIZE = 15 NAME = 비밀번호 ></TD>
+        </TR>
+        <TR>
+          <TD></TD>
+          <TD ALIGN = LEFT><INPUT TYPE=radio checked NAME = 구분 VALUE = 개인>개인<BR>
+                           <INPUT TYPE=radio NAME = 구분 VALUE = 기업>기업</TD>
+        </TR>
+<TABLE WIDTH = 100%>
+  <BR>
+    <TR><TD></TD><TD WIDTH =100% ALIGN = CENTER> <INPUT TYPE= SUBMIT NAME="cmd신규고객저장" VALUE = "신규고객저장">
+      <INPUT TYPE= RESET NAME="cmdreset" VALUE = "reset"></TD></TR>
+</TABLE></CENTER>
+</FORM>
+</BODY>
+</HTML>
